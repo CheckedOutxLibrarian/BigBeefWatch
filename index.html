@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigBeefWatch</title>
+    <meta
+      name="description"
+      content="A fan visualizer comparing Kendrick Lamar vs Drake and Joey Bada$$ vs Westcoast."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Rap battle dashboard</p>
+          <h1>BigBeefWatch</h1>
+        </div>
+        <div class="chip">Fan-made visual scorecard</div>
+      </header>
+
+      <main class="dashboard">
+        <section class="intro card">
+          <div>
+            <p class="label">Featured matchup</p>
+            <h2>Kendrick v Drake</h2>
+          </div>
+          <p class="summary">
+            A stylized comparison of lyrical impact, flow, storytelling, and crowd presence.
+          </p>
+        </section>
+
+        <section id="matchup-grid" class="matchup-grid"></section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
